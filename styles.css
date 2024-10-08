@@ -4,11 +4,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+ul{
+    display: inline-flex;
+}
 li {
     padding: 5px;
-    /* font-weight: bold; */
-    /* width: 500px;
-    length: auto; */
+    border-style:ridge;
+    border-color: darkgray;
+    border-radius: 10px;
+    border-width: 5px;
 }
 .content.header{
     display: block;
@@ -32,11 +36,16 @@ body{
 .list{
     font-size: 15px;
     text-align: left;
-    padding-left: 30%;
-    padding-right: 25%;
+    /* padding-left: 30%;
+    padding-right: 25%; */
     margin-top: 10px;
-
-    
+}
+.list-box.li{
+    display: inline-block;
+    margin: 20px;
+}
+.list-box{
+    width: 200px;
 }
 .images{
     display: block;
